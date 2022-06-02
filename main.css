@@ -1,0 +1,107 @@
+/* Universal Selectors */
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* end of universal selectors */
+
+/* tag based Selectors */
+body {
+  background: whitesmoke;
+  height: 100%;
+  width: 100%;
+}
+p {
+  margin: 5px;
+}
+
+h1 {
+  line-height: 2;
+  font-size: 20px;
+}
+
+small {
+  font-size: 12px;
+}
+
+/* end of tag based selectors */
+
+/* class based Selectors */
+.container {
+  margin: 0 !important;
+}
+
+.d-block {
+  display: block;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-secondary {
+  color: silver;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.search-box {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.navbar-bg {
+  background: rebeccapurple;
+}
+
+.navbar {
+  padding: 5px 10px;
+  vertical-align: middle;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.placeholder {
+  width: 100%;
+  padding: 5px;
+  background: silver;
+}
+
+.responsive-sidebar-sticky {
+  position: sticky;
+  top: 75px;
+}
+
+.slight-shadow {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+/* end of class based selectors */
+
+/* descendant combinators */
+
+menu li {
+  list-style-type: none;
+}
+
+/* end of descendant combinators*/

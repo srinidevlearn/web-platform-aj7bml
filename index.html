@@ -1,0 +1,292 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors Learning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <style>
+      h1.placeholder {
+        font-size: 16px;
+      }
+
+      article ul li {
+        list-style-type: none;
+        padding-left: 50px;
+        margin: 10px;
+      }
+
+      #skill i.fa.fa-star {
+        color: green !important;
+      }
+
+      #skill i.fa.fa-star-half-o {
+        color: yellowgreen !important;
+      }
+
+      #skill i.fa.fa-star-o {
+        color: darkolivegreen !important;
+      }
+
+      nav.navbar .nav-lists div {
+        text-align: right;
+      }
+      .skill-card {
+        margin: 0px 50px;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .responsive-sidebar-sticky {
+          position: relative;
+          top: 0;
+        }
+
+        nav.navbar .nav-lists div {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- nav bar setting -->
+      <nav
+        class="row navbar navbar-bg"
+        style="padding-top: 10px; vertical-align: middle"
+      >
+        <div class="col-1 text-white">Name</div>
+        <div class="col-3 text-white text-end">
+          <div class="row nav-lists">
+            <div class="col-2">
+              <a href="#edu" class="text-white text-decoration-none"
+                >Education</a
+              >
+            </div>
+            <div class="col-2">
+              <a href="#exp" class="text-white text-decoration-none"
+                >Experience</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav bar setting -->
+      <section class="row" style="margin-top: 20px">
+        <aside class="col-1 responsive-sidebar-sticky">
+          <menu class="text-center">
+            <li class="slight-shadow skill-card">
+              <div>
+                <img
+                  class="profile-pic"
+                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                />
+              </div>
+              <h1>Skill</h1>
+              <div>
+                <p>HTML</p>
+                <div id="skill">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+              </div>
+              <p>Css</p>
+              <div id="skill">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>JavaScript</p>
+              <div id="skill">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>Angular</p>
+              <div id="skill">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </li>
+          </menu>
+          <menu class="text-center">
+            <li>
+              <h1>Certification</h1>
+              <div>
+                <p>Angular certification</p>
+                <small class="d-block text-secondary" style="margin-left: 53px">
+                  &rightarrow; 2021 - Present</small
+                >
+              </div>
+              <div>
+                <p>Html certification</p>
+                <small class="d-block text-secondary" style="margin-left: 53px">
+                  &rightarrow; 2021 - Present</small
+                >
+              </div>
+            </li>
+          </menu>
+        </aside>
+        <section class="col-3">
+          <article>
+            <h1 class="placeholder">Name</h1>
+          </article>
+          <br />
+          <article id="edu">
+            <h1 class="placeholder">Education</h1>
+            <ul>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article id="exp">
+            <h1 class="placeholder">Work Experience</h1>
+            <ul>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <h1 class="placeholder">Contact</h1>
+            <ul>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  debitis quidem perspiciatis totam eaque inventore perferendis
+                  iure quos quasi accusamus distinctio error, eos nemo soluta.
+                  Veritatis quibusdam illo aperiam dolor!
+                </p>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

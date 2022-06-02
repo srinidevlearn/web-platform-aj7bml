@@ -1,0 +1,142 @@
+.row::after {
+  content: '';
+  /* more important because,if content was not set background*/
+  clear: both;
+  display: block;
+}
+
+/* quick responsive grid */
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+.col-4 {
+  width: 100%;
+}
+/* attribute selector */
+
+/* 
+* syntax [data-value*="foo"] {
+ // Attribute value contains this value somewhere in it 
+}
+*/
+[class*='col'] {
+  float: left;
+}
+
+/* end of attribute selector*/
+/* Small screens - MOBILE */
+@media only screen {
+  .col {
+    width: 8.33%;
+  }
+
+  .col-1 {
+    width: 100%;
+  }
+
+  .col-2 {
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+}
+
+/* Define mobile styles - Mobile First */
+@media only screen and (max-width: 40em) {
+  .col {
+    width: 8.33%;
+  }
+
+  .col-1 {
+    width: 100%;
+  }
+
+  .col-2 {
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+}
+
+/* max-width 640px,
+mobile-only styles, use when QAing mobile issues */
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) {
+  .col-1 {
+    width: 50%;
+  }
+
+  .col-2 {
+    width: 50%;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+
+  .col-4 {
+    width: 50%;
+  }
+}
+
+/* min-width 641px,
+medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .col-1 {
+    width: 50%;
+  }
+
+  .col-2 {
+    width: 50%;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+
+  .col-4 {
+    width: 50%;
+  }
+}
+
+/*
+min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) {
+  .col-1 {
+    width: 25%;
+  }
+
+  .col-2 {
+    width: 50%;
+  }
+
+  .col-3 {
+    width: 75%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+}
